@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:text="Enter your name"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/ED1"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"></EditText>
+    <TextView
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:text="Enter your cibil score"
+        android:textSize="20dp">
+    </TextView>
+    <EditText
+        android:id="@+id/ED2"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content">
+    </EditText>
+    <TextView
+        android:layout_width="341dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Enter loan ammount"></TextView>
+    <EditText
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ED3"></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/BT1"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TV1">
+    </TextView>
+
+</LinearLayout>
