@@ -4,31 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DA3B3B"
-    android:backgroundTint="#E33838"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="First Page"
+        android:textSize="40dp"
+       ></TextView>
+
+    <EditText
+        android:id="@+id/ed1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#EC5A5A"
-        android:backgroundTint="#D55656"
-        android:text="IMAGE VIEW"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="100dp"
+        android:hint="enter your name "></EditText>
 
-    <ToggleButton
-        android:id="@+id/TB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></ToggleButton>
-
-    <ImageView
-        android:id="@+id/img"
+    <EditText
+        android:id="@+id/ed2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/img_view"></ImageView>
+        android:layout_marginTop="100dp"
+        android:hint="enter your mark"
+        android:inputType="number"></EditText>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:layout_gravity="center"
+      ></Button>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"></TextView>
+
 
 </LinearLayout>
