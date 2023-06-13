@@ -4,8 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recycler_view.Item
-
+//import com.example.recycler_view.Item
 class MainActivity : AppCompatActivity() {
 
     private lateinit var recyclerView: RecyclerView
@@ -14,7 +13,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         recyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
@@ -25,9 +23,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun generateItemList(): List<Item> {
         val itemList = ArrayList<Item>()
-        itemList.add(Item("Title 1", "Description 1"))
-        itemList.add(Item("Title 2", "Description 2"))
-        itemList.add(Item("Title 3", "Description 3"))
+        itemList.add(Item("Vivo", "Developed by VIVO"))
+        itemList.add(Item("Oppo", "Developed by oppo"))
+        itemList.add(Item("Pixel", "Developed by google"))
         return itemList
     }
 }
