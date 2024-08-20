@@ -1,3 +1,5 @@
+# Flashcard application using kotlin
+A app with dual-feature app that combines a dictionary and a note-taking system to help users learn.
 # Dictionary Feature
 **Search and Learn:** Users can input a word to search for its meaning, and the app will retrieve the definition from a stored dictionary file.
 **Efficient Display:** The search results are displayed in a Recycle View, providing a scrollable and efficient list of words and their meanings.**
