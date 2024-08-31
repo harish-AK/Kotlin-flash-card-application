@@ -1,25 +1,26 @@
 # Flashcard application using kotlin
 A app with dual-feature app that combines a dictionary and a note-taking system to help users learn.
+**Intent-based Navigation:** The app utilizes Intents to navigate between activities, allowing users to seamlessly switch between searching for words and taking notes.
+
 # Dictionary Feature
 
-**Search and Learn:** Users can input a word to search for its meaning, and the app will retrieve the definition from a stored dictionary file.
+**Search :** Users can input a word to search for its meaning, and the app will retrieve the definition from a stored dictionary file.
 
-**Efficient Display:** The search results are displayed in a Recycle View, providing a scrollable and efficient list of words and their meanings.**
+**Display:** The search results are displayed in a Recycle View, providing a scrollable list of words and their meanings.**
 
-**Intent-based Navigation:** The app utilizes Intents to navigate between activities, allowing users to seamlessly switch between searching for words and taking notes.
 
 
 # Note-Taking Feature
 
-**Create and Organize:** Users can create new notes and organize them in a way that suits their learning style.
+**Create and Organize:** Users can create new notes and organize them,
 
-**Add Notes:** Add new notes with ease, and store them securely within the app.
+**Add Notes:** Add new notes store them within the app.
 
-**Delete Notes:** Remove unwanted notes to keep your study materials organized.
+**Delete Notes:** Saved notes can be deleted.
 
-**Share Notes:** Share notes with friends, classmates, or study groups via various sharing platforms.
+**Share Notes:** Saved notes can be shared to different platforms like whatsapp, telegram using intent.
 
-**Edit Notes:** Edit and update existing notes to refine your understanding of the material.
+**Edit Notes:** Edit and update existing notes.
 
 https://github.com/user-attachments/assets/7a46ec20-5265-4efb-a103-d28a9209bf18
 
