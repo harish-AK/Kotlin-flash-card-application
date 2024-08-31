@@ -12,4 +12,6 @@ A app with dual-feature app that combines a dictionary and a note-taking system 
 **Delete Notes:** Remove unwanted notes to keep your study materials organized.
 **Share Notes:** Share notes with friends, classmates, or study groups via various sharing platforms.
 **Edit Notes:** Edit and update existing notes to refine your understanding of the material.
-https://github.com/user-attachments/assets/29cdbd93-720e-44fc-8ffc-fbc924d53848
+
+https://github.com/user-attachments/assets/7a46ec20-5265-4efb-a103-d28a9209bf18
+
